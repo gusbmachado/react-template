@@ -2,10 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 // eslint-disable-next-line no-shadow
 export enum ColorPallete {
-  PRIMARY_1 = '#9ab1c8',
-  PRIMARY_2 = '#09416c',
+  PRIMARY_1 = '#ffd700',
+  PRIMARY_2 = '#f4c116',
   PRIMARY_3 = '#e6e7e7',
-  PRIMARY_4 = '#9bb2ca',
+  PRIMARY_4 = '#3498db',
+  PRIMARY_5 = '#2ecc71',
+  PRIMARY_6 = '#1f8506',
   NEUTRAL_1 = '#18191d',
   NEUTRAL_2 = '#fcfcfc',
   NEUTRAL_3 = '#808080',
@@ -29,6 +31,8 @@ export default createGlobalStyle`
     --color-primary-2: ${ColorPallete.PRIMARY_2};
     --color-primary-3: ${ColorPallete.PRIMARY_3};
     --color-primary-4: ${ColorPallete.PRIMARY_4};
+    --color-primary-5: ${ColorPallete.PRIMARY_5};
+    --color-primary-6: ${ColorPallete.PRIMARY_6};
     --color-neutral-1: ${ColorPallete.NEUTRAL_1};
     --color-neutral-2: ${ColorPallete.NEUTRAL_2};
     --color-neutral-3: ${ColorPallete.NEUTRAL_3};
